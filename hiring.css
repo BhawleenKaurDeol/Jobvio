@@ -1,0 +1,70 @@
+body{
+  text-align: center;
+  font-family: sans-serif;
+  margin: 0;
+  background-image: url("images/jobviopic6.jpg");
+  color: #fff;
+}
+
+/* .hiring-form{
+  background-color: black;
+  width:50%;
+  margin-left: 25%;
+  padding:2%;
+} */
+
+
+
+hr{
+  width:10%;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  border-top-width: 5px;
+
+  border-color: #FFD365;
+}
+p{
+  width : 50%;
+  margin-left:  25%;
+}
+
+.in-boxes{
+  height : 30%;
+  width :30%;
+}
+button {
+  background-color: #019267;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #019267;;
+}
+
+.button1:hover {
+  background-color: #019267;
+  color: white;
+}
+
+
+footer{
+padding: 1%;
+  background-color:  #019267;
+  margin: 3% 0 0 0;
+  color: black;
+}
+.footer-icon{
+  margin: 20px 10px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Post a project</title>
+    <link rel="stylesheet" href="hiring.css" />
+
+<!-- fontawesome script -->
+<script src="https://kit.fontawesome.com/1c9cf42f5e.js" crossorigin="anonymous"></script>
+
+
+  </head>
+  <body>
+    <div class="hiring-form">
+
+    <h1>LET US KNOW WHAT YOU NEED DONE</h1>
+
+    <p>Get free quotes from verified & skilled freelancers within minutes, view profiles, ratings and portfolios and chat with them. Pay the freelancer only when you are 100% satisfied with their work.</p>
+        <hr>
+        <form class="" action="hiring.php" method="post">
+
+      <label for="">What type of work do you require?</label><br><br>
+    <select class="work" name="work">
+      <option value="----">----</option>
+      <option value="Convenience store">Convenience store</option>
+      <option value="barista">Barista</option>
+      <option value="typing jobs">typing jobs</option>
+      <option value="paid survey jobs">Paid survey Jobs</option>
+      <option value="online advertising">Online Advertising</option>
+      <option value="voice recognition">Voice Recognition</option>
+      <option value="spreadsheet entry">Spreadsheet Entry</option>
+      <option value="powerpoint presentation">Powerpoint Presentation</option>
+      <option value="language translation">Language Translation</option>
+      <option value="online graphic">Online Graphic</option>
+    </select><br><br>
+    Project Name*(What is your project about?):<br><br>
+    <input type="text"  class="in-boxes" name="projectname" value="" required><br><br>
+    Email*:<br><br>
+    <input type="email" class="in-boxes" name="email" value="" required><br><br>
+    Company Website: <br><br>
+    <input type="url" class="in-boxes" name="website" value=""><br><br>
+    What budget do youhave in mind?: <br><br>
+    <input type="number" class="in-boxes" name="budget" value=""><br><br>
+    Describe your project here:<br><br>
+    <textarea name="desc" rows="8" cols="80"></textarea><br><br>
+    <button type="submit" name="submit" class = "button1">Post Project Now</button><br>
+    </form>
+</div>
+    <!-- footer  -->
+    <footer id="footer">
+        <div class="container-fluid">
+          <i class="fa fa-twitter   footer-icon " aria-hidden="true"></i>
+          <i class="fa fa-facebook  footer-icon " aria-hidden="true"></i>
+          <i class="fa fa-instagram footer-icon " aria-hidden="true"></i>
+          <i class="fa fa-envelope  footer-icon " aria-hidden="true"></i>
+          <p>© Copyright 2022 Jobvio</p>
+        </div>
+      </footer>
+
+  </body>
+</html>

@@ -1,0 +1,224 @@
+body {
+  background-color: "#F8F8FF";
+}
+
+
+hr{
+ text-align: center;
+  position: relative;
+  top:35%;
+  left:20%;
+  width:60%;
+  opacity: 1;
+}
+ img{
+width:99.99%;
+}
+.navbar{
+  opacity:0.8;
+  background-color: white;
+  padding: 0px;
+}
+.navtext {
+  opacity:1;
+  color:#019267;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.nav-link{
+  color:#019267;
+  opacity:1;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+/* Slideshow container */
+.slideshow-container {
+   max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+/* Caption text */
+.welcome{
+  font-size: 4rem;
+  font-weight: bold;
+  /* color: #019267; */
+}
+.text {
+  color: #019267;
+  /* color:black; */
+  font-size: 3rem;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 50%;
+  width: 50%;
+  text-align: center;
+  opacity: 1;
+  animation-name: fly;
+  animation-duration: 2s;
+  left:25%;
+  animation-timing-function: ease;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 10s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+@keyframes fly {
+  from{left:-35%;}
+  to {left:25%;}
+}
+/* types of jobs */
+
+.types1{
+color : black;
+word-spacing: 10px;
+text-align : center;
+font-family : Segoe UI;
+font-size: 50px;
+}
+
+.types2{
+color :  #019267;
+text-align :left;
+font-family : Segoe UI;
+padding:15px;
+
+}
+.con{
+color :  black;
+text-align : left;
+font-family : Segoe UI;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #019267;
+}
+
+.button1:hover {
+  background-color: #019267;
+  color: white;
+}
+
+
+
+/* hiring and working */
+.button {
+  background-color: #019267;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #019267;;
+}
+
+.button1:hover {
+  background-color: #019267;;
+  color: white;
+}
+h3{
+  text-align: center;
+}
+.col{
+  text-align: center;
+}
+
+.container{
+
+  margin-bottom: 10%;
+  padding:10%;
+  width: 200%;
+
+}
+.row{
+  margin-top: 10%;
+  padding: 5%;
+  color: white;
+  background-color: black;
+  background-blend-mode: color;
+}
+
+.hiring{
+  margin-top: 2%;
+}
+
+
+
+/*testimonials */
+#testimonials{
+background-color : #019267;
+margin-bottom : 3%;
+
+padding:5%;
+}
+
+.carousel-inner{
+text-align : center;
+}
+.carousel-item{
+width : 80%;
+margin-left : 10%;
+}
+.testimonials-image{
+  width:15%;
+  border-radius: 100%;
+  margin:20 px;
+}
+.carousel-control-prev{
+margin-right :2%;
+}
+.carousel-control-next{
+margin-left :2%;
+}
+
+/* footer */
+
+footer{
+padding: 1%;
+  /* background-color:  #019267; */
+  margin: 3% 0 0 0;
+  text-align: center;
+}
+.footer-icon{
+  margin: 20px 10px;
+}

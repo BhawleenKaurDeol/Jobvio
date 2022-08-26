@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		/* Styling the body of the page */
+		body {
+			height:40vh;
+			display: flex;
+			justify-content:;
+			align-items:;
+			background-color:white;
+		}
+
+		/* Stylingthe last h2 tag by giving margin bottom */
+		.progress-bar-container:not(:last-child) {
+			margin-bottom: 50px;
+		}
+
+		/* Styling the h2 tag by giving color,
+		letter spacing, font-size etc.*/
+		.progress-bar-container h2 {
+			font-family: Arial;
+			color:black;
+			letter-spacing:0.5px;
+			font-size:15px;
+		}
+
+		/* Styling the border and box
+		effect of the progress bar*/
+		.progress-bar {
+			width: 700px;
+			height: 15px;
+			margin-top: 0px;
+			border: 1px solid #565656;
+			border-radius:9px;
+			box-shadow: 0 0 03px rgb(245, 159, 0);
+		}
+
+		/* Stylingthe background color of each
+		animation and border radius */
+		.percentage {
+			display:block;
+			height:100%;
+			background-color:#019267;
+			border-radius:5px;
+			animation: progress 1500ms ease-in 1;
+		}
+
+		/* Assigning width of each languages*/
+		.c{
+			width: 89%;
+		}
+
+		.java {
+			width: 93%;
+		}
+
+		.python{
+			width: 99%;
+		}
+
+		.html {
+			width: 88%;
+		}
+
+		.css{
+			width: 92%;
+		}
+
+
+
+		/* Animating the progress bar by
+		initially starting from 0*/
+		@keyframes progress {
+			from {
+				width: 0;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<div class="skills">
+		<div class="progress-bar-container">
+			<h4>Easy to Navigate Platform</h4>
+			<div class="progress-bar">
+				<span class="percentage c"></span>
+			</div>
+		</div>
+
+		<div class="progress-bar-container">
+			<h4> Gauranteed Income </h4>
+			<div class="progress-bar">
+				<span class="percentage java"></span>
+			</div>
+		</div>
+
+		<div class="progress-bar-container">
+			<h4>Value For Hardwork </h4>
+			<div class="progress-bar">
+				<span class="percentage python"></span>
+			</div>
+		</div>
+
+		<div class="progress-bar-container">
+			<h4>Support at Jobvio </h4>
+			<div class="progress-bar">
+				<span class="percentage html"></span>
+			</div>
+		</div>
+
+		<div class="progress-bar-container">
+			<h4>Effective for Students </h4>
+			<div class="progress-bar">
+				<span class="percentage css"></span>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
